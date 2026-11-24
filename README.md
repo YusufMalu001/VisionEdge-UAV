@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛰️ VisionEdge-UAV
+# VisionEdge-UAV
 
 ### Real-time target detection, tracking and lock-on for UAV-style video, with an operator HUD streamed to the browser
 
@@ -29,13 +29,13 @@ It is the perception foundation for the search-and-rescue drone project **SAR_DR
 
 | | |
 |---|---|
-| 🎯 **Priority-aware lock-on** | Targets are ranked by class priority (people first, then vehicles) and then by size; the operator can restrict the active category live |
-| 🔁 **Occlusion recovery** | Lost tracks are kept for 3 s with a velocity-extrapolated predicted position, drawn as a dashed "re-acquire" box |
-| 🧭 **Follow guidance** | Correction arrows show how far the target is from the desired position in frame, with a dead-band to suppress jitter |
-| 🖥️ **Operator HUD** | Crosshair, corner-bracket target boxes, trajectory trails, velocity vectors, status banner, live FPS, every layer switchable in config |
-| 🎞️ **Dual streams** | Two independent video streams (A/B) with a switchable active stream |
-| 🛡️ **Fault tolerant** | Missing source, a failed inference, or a slow frame never kills the feed |
-| 🧩 **Dataset modes** | COCO, VisDrone and UAVDT class mappings selectable in one setting |
+| **Priority-aware lock-on** | Targets are ranked by class priority (people first, then vehicles) and then by size; the operator can restrict the active category live |
+| **Occlusion recovery** | Lost tracks are kept for 3 s with a velocity-extrapolated predicted position, drawn as a dashed "re-acquire" box |
+| **Follow guidance** | Correction arrows show how far the target is from the desired position in frame, with a dead-band to suppress jitter |
+| **Operator HUD** | Crosshair, corner-bracket target boxes, trajectory trails, velocity vectors, status banner, live FPS, every layer switchable in config |
+| **Dual streams** | Two independent video streams (A/B) with a switchable active stream |
+| **Fault tolerant** | Missing source, a failed inference, or a slow frame never kills the feed |
+| **Dataset modes** | COCO, VisDrone and UAVDT class mappings selectable in one setting |
 
 ---
 
